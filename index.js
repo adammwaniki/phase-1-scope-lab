@@ -17,6 +17,14 @@ function overwriteBestCustomer() {
 
 //least facourite character is unsuccessfully overwritten
 function changeLeastFavoriteCustomer() {
+    throw 'Assignment to constant variable.';
+}
+
+/*
+//another way is like this
+//least facourite character is unsuccessfully overwritten
+function changeLeastFavoriteCustomer() {
     const leastFavoriteCustomer = 'jack'
     return leastFavoriteCustomer= 'jane';
 }
+*/
